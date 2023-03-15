@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Whitelove";
+  src: url(./Fonts/Whitelove.otf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +16,10 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
+}
+
+#title{
+  font-family: "WhiteLove"; 
 }
 
 .hash-span {

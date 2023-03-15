@@ -41,17 +41,14 @@ const ExperienceCard = ({ experience }) => {
           {experience.company_name}
         </p>
       </div>
-
-      <ul className='mt-5 list-disc ml-5 space-y-2'>
-        {experience.points.map((point, index) => (
-          <li
-            key={`experience-point-${index}`}
-            className='text-white-100 text-[14px] pl-1 tracking-wider'
-          >
-            {point}
-          </li>
-        ))}
-      </ul>
+      <div className='mt-7 flex justify-between items-center gap-1'>
+        <div className='flex-1 flex flex-col'>
+          <img
+              src={experience.image}
+              className='w-50 h-50 object-cover'
+            />
+          </div>
+      </div>
     </VerticalTimelineElement>
   );
 };
@@ -64,7 +61,7 @@ const Experience = () => {
           What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
+          Mis creaciones.
         </h2>
       </motion.div>
 
