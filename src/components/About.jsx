@@ -39,7 +39,7 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}></p>
-        <h2 className={styles.sectionHeadText}>Quien soy?</h2>
+        <h2 className={styles.sectionHeadText}>¿Quién soy?</h2>
       </motion.div>
 
       <motion.p
