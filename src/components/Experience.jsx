@@ -4,15 +4,14 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 
-import { motion } from "framer-motion";
-
 import "react-vertical-timeline-component/style.min.css";
 
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { experiences } from "../constants";
-import { textVariant } from "../utils/motion";
-import CarouselAros from "../components/Carousel";
+
+import { Link } from 'react-router-dom';
+
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -44,15 +43,26 @@ const ExperienceCard = ({ experience }) => {
         </p>
       </div>
 
-      <div className='flex justify-between items-center gap-1'>
+      <div className='flex flex-column justify-center items-center gap-1'>
+        
         <div className='flex-1 flex flex-col justify-between items-center'>
           
           <img className='w-75 h-75' src={experience.image}  alt={experience.title} />
 
-        </div>
-    </div>
-      
+        </div> 
+        
+        
+        <Link to="/pagina">
+          <button className='flex justify-center items-center gap-1 btn btn-primary'>Productos</button>
+        </Link>
+
+        
+      </div>
+
+     
+
     </VerticalTimelineElement>
+    
   );
 };
 

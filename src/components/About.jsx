@@ -8,8 +8,11 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const About = () => {
   return (
-    <>
-      <motion.div variants={textVariant()}>
+    <div id='about' className='relative w-full h-screen mx-auto pt-20'>
+      
+      <motion.div 
+        variants={textVariant()}
+      >
         <p className={styles.sectionSubText}></p>
         <h2 className={styles.sectionHeadText}>¿Quién soy?</h2>
       </motion.div>
@@ -27,8 +30,7 @@ const About = () => {
 
       </motion.p>
 
-      
-    </>
+    </div>
   );
 };
 

@@ -1,11 +1,11 @@
-import React from 'react'
 import img1 from '../assets/aros/1.jpg'
 import img2 from '../assets/aros/2.webp'
 import img3 from '../assets/aros/3.webp'
+import './carousel.css'
 
-const CarouselAros = () => {
+const Carousel = () => {
   return (
-    <div>
+    <div id='funkos'>
         <div id="carouselExample" className="carousel slide">
           <div className="carousel-inner">
             <div className="carousel-item active">
@@ -31,4 +31,4 @@ const CarouselAros = () => {
   )
 }
 
-export default CarouselAros;
+export default Carousel;

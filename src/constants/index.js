@@ -25,18 +25,18 @@ export const navLinks = [
 const experiences = [
   {
     title: "Funkos",
-    company_name: "Starbucks",
+    company_name: "Personajes literarios, Caricaturas, Anime, Pelis y más",
     icon: funkos,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Funkos Personalizados de tus prsonajes favoritos",
     image: funkos,
   },
   {
     title: "LLaveros",
-    company_name: "Llaveros",
+    company_name: "Mate, Animales, Objetos ",
     icon: llaveros,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Llaveros personalizados de tus objetos o personajes favoritos",
     image: llaveros,
   },
   {
@@ -44,15 +44,15 @@ const experiences = [
     company_name: "Souvenirs",
     icon: souvenir,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Souvenirs personalizados",
     image: souvenir,
   },
   {
     title: "Aros",
-    company_name: "Meta",
+    company_name: "Mate, Oreo, Objetos varios",
     icon: aros,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Aros personalizados",
     image: aros,
   },
 ];
