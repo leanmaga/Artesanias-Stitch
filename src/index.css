@@ -18,7 +18,24 @@
   color-scheme: dark;
 }
 
-#about, #carousel, #contact, #experience, #feedbacks, #hero{
+.logo{
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid #1f266d;
+}
+#contact{
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  min-height:50vh;
+} 
+#about{
+  margin-top:0;
+  min-height: 20vh;
+}
+#experience, #feedbacks, #hero{ 
   min-height: 50vh;
 }
 @media (max-width: 768px){
@@ -52,9 +69,17 @@
 }
 
 .hash-span {
-  margin-top: -100px;
-  padding-bottom: 100px;
+  margin-top: -200px;
   display: block;
+}
+.snap-container {
+  overflow: auto;  
+  scroll-snap-type: y mandatory;  
+}
+
+.snap-section {
+  scroll-snap-align: start;
+  min-height: 50vh;
 }
 
 .black-gradient {

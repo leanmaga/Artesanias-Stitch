@@ -4,16 +4,21 @@ import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
 
+
+import { logo } from "../assets";
+
 const Contact = () => {
   
   return (
     <div className={`xl:mt-12 flex justify-center xl:flex-row flex-col-reverse gap-10 overflow-hidden`} id='contact'>
+      
+      
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className=' bg-black-100 p-8 rounded-2xl'
       >
         <h3 className={styles.sectionHeadText}>Contáctame.</h3>
-
+        
         <form
           className='mt-6 flex flex-col gap-2'
         >
@@ -54,6 +59,14 @@ const Contact = () => {
         </form>
         
       </motion.div>
+      <motion.div
+        variants={slideIn("right", "tween", 0.2, 1)}
+        className='flex justify-center align-middle content-center'
+      >
+        <img src={logo} alt='logo' className='object-contain h-50 mt-10 logo' />
+      </motion.div>
+      
+      
     </div>
   );
 };

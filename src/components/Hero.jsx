@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
+
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen pt-20`} id='hero'>
@@ -15,9 +16,13 @@ const Hero = () => {
         </div>
 
         <div className='flex flex-col justify-center items-center mt-5'>
+
           <h1 className={`${styles.heroHeadText} text-white`}>
             <span id="title" className='text-[#915EFF]'>Artesanias Stitch</span>
           </h1>
+
+          
+
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Venta de aros, llaveros, pinturas, <br className='sm:block hidden' />
             souvenirs, impresiones en 3d y mucho más...

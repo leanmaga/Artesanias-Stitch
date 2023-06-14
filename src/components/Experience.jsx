@@ -16,6 +16,7 @@ import { Link } from 'react-router-dom';
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
+      
       contentStyle={{
         background: "#1d1836",
         color: "#fff",
@@ -68,7 +69,7 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
   return (
-    <>
+    <div className="mt-20">
       <div>
         <p className={`${styles.sectionSubText} text-center`}>
           What I have done so far
@@ -88,7 +89,7 @@ const Experience = () => {
           ))}
         </VerticalTimeline>
       </div>
-    </>
+    </div>
   );
 };
 

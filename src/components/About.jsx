@@ -8,7 +8,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const About = () => {
   return (
-    <div id='about' className='relative w-full h-screen mx-auto pt-20'>
+    <div id='about' className='relative w-full h-screen mx-auto'>
       
       <motion.div 
         variants={textVariant()}
