@@ -6,9 +6,9 @@ import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section className={`relative pt-[300px] lg:pt-[100px] xs:h-screen`} id='hero'>
+    <section className={`relative pt-[100px] lg:pt-[100px] `} id='hero'>
       
-      <div className={` inset-0 ${styles.paddingX} flex flex-row justify-center items-start gap-5`}>
+      <div className={`col-xs-12 col-sm-12 col-md-6 col-lg-6 inset-0 ${styles.paddingX} flex flex-row justify-center items-start gap-5`}>
         
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
@@ -30,7 +30,7 @@ const Hero = () => {
         
       </div>
       
-      <div className={` inset-0 ${styles.paddingX} flex flex-row justify-center items-center gap-5`}>
+      <div className={`col-xs-12 col-sm-12 col-md-6 col-lg-6 inset-0 ${styles.paddingX} flex flex-col justify-center h-[500px] items-center p-5`}>
         <ComputersCanvas className="w-[100%] h-[100%]"/>
       </div>
       

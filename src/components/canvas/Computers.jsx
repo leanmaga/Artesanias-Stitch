@@ -22,7 +22,7 @@ const Computers = ({ isMobile }) => {
   }, []);
 
   return (
-    <mesh scale={[3, 3, 3]} position={[0,0,0]}>
+    <mesh scale={[4, 4, 4]} position={[0,0,0]}>
       <hemisphereLight intensity={0.75} groundColor="black" />
       <primitive object={computer.scene} />
     </mesh>
