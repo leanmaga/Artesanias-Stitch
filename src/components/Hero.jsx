@@ -6,9 +6,9 @@ import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen pt-20`} id='hero'>
+    <section className={`relative pt-[300px] lg:pt-[100px] xs:h-screen`} id='hero'>
       
-      <div className={`inset-0 ${styles.paddingX} flex flex-row justify-center items-start gap-5`}>
+      <div className={` inset-0 ${styles.paddingX} flex flex-row justify-center items-start gap-5`}>
         
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
@@ -17,27 +17,24 @@ const Hero = () => {
 
         <div className='flex flex-col justify-center items-center mt-5'>
 
-          <h1 className={`${styles.heroHeadText} text-white`}>
+          <h1 className={`${styles.heroHeadText}`}>
             <span id="title" className='text-[#915EFF]'>Artesanias Stitch</span>
           </h1>
 
-          
-
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Venta de aros, llaveros, pinturas, <br className='sm:block hidden' />
+            Venta de aros, llaveros, pinturas,
             souvenirs, impresiones en 3d y mucho más...
           </p> 
+
         </div>
         
       </div>
       
-      <div className={`inset-0 ${styles.paddingX} flex flex-row justify-center items-center w-full h-screen`}>
+      <div className={` inset-0 ${styles.paddingX} flex flex-row justify-center items-center gap-5`}>
         <ComputersCanvas className="w-[100%] h-[100%]"/>
       </div>
       
-      
-
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center xs:hidden'>
         
         <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
           <motion.div
@@ -54,6 +51,7 @@ const Hero = () => {
         </div>
         
       </div>
+
     </section>
   );
 };

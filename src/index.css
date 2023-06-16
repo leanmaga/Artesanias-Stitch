@@ -23,64 +23,33 @@
   background-color: white;
   border: 2px solid #1f266d;
 }
-#contact{
-  margin-top: 0;
+
+#about, #contact, #experience, #feedbacks, #hero{ 
   display: flex;
   justify-content: center;
-  align-items: center;
   align-content: center;
-  min-height:50vh;
-} 
-#about{
-  margin-top:0;
-  min-height: 20vh;
-}
-#experience, #feedbacks, #hero{ 
+  text-align: center;
+  vertical-align: center;
+  width: 100%;
   min-height: 50vh;
 }
+
 @media (max-width: 768px){
   #hero{
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
   #about{
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    width:100%;
   }
 }
-#hero{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#about{
-  display:flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items:center;
-}
+
 #title{
   font-size: 50px;
   font-family: "WhiteLove"; 
 }
 
-.hash-span {
-  margin-top: -200px;
-  display: block;
-}
-.snap-container {
-  overflow: auto;  
-  scroll-snap-type: y mandatory;  
-}
-
-.snap-section {
-  scroll-snap-align: start;
-  min-height: 50vh;
-}
 
 .black-gradient {
   background: #000000; /* fallback for old browsers */

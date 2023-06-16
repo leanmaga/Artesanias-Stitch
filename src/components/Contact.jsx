@@ -23,7 +23,7 @@ const Contact = () => {
           className='mt-6 flex flex-col gap-2'
         >
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-2'>Su nombre</span>
+            <span className='text-white font-medium m-2 text-start'>Su nombre</span>
             <input
               type='text'
               name='name'
@@ -32,7 +32,7 @@ const Contact = () => {
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-2'>Su email</span>
+            <span className='text-white font-medium m-2 text-start'>Su email</span>
             <input
               type='email'
               name='email'
@@ -41,7 +41,7 @@ const Contact = () => {
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-2'>Su Mensaje</span>
+            <span className='text-white font-medium m-2 text-start'>Su Mensaje</span>
             <textarea
               rows={3}
               name='message'
@@ -52,7 +52,7 @@ const Contact = () => {
 
           <button
             type='submit'
-            className='bg-tertiary py-2 px-3 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            className='bg-tertiary m-2 py-2 px-3 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
             Enviar
           </button>

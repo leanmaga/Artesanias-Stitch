@@ -4,21 +4,21 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar,  StarsCanvas } fro
 
 const App = () => {
   return (
-    <div className="snap-container">
+    <div >
       <div className='relative z-0 bg-black'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
-          <Hero className='snap-section'/>
+          <Hero />
         </div>
         <div >
-          <About className='snap-section' />
+          <About  />
 
-          <Experience className='snap-section block'/>
+          <Experience />
           
-          <Feedbacks className='snap-section block'/>
+          <Feedbacks />
         </div>
         <div >
-          <Contact className='snap-section block'/>
+          <Contact />
           <StarsCanvas />
         </div>
       </div>

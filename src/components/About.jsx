@@ -8,7 +8,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const About = () => {
   return (
-    <div id='about' className='relative w-full h-screen mx-auto'>
+    <div id='about' className='flex-column'>
       
       <motion.div 
         variants={textVariant()}
@@ -19,7 +19,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] leading-[30px]'
       >
         Soy una apasionada de las artesanias y llevo más de 10 años 
         trabajando en el mundo del diseño y la producción de piezas 
