@@ -63,32 +63,40 @@ const ExperienceCard = ({ experience }) => {
      
 
     </VerticalTimelineElement>
-    
   );
 };
 
 const Experience = () => {
   return (
-    <div className="mt-20">
-      <div>
-        <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
-        </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
-          Mis creaciones.
-        </h2>
+    <div id='experience'>
+      
+      <div className='col-0 col-md-2 col-lg-2'>
       </div>
-
-      <div className='mt-20 flex flex-col'>
-        <VerticalTimeline>
-          {experiences.map((experience, index) => (
-            <ExperienceCard
-              key={`experience-${index}`}
-              experience={experience}
-            />
-          ))}
-        </VerticalTimeline>
+      
+      <div className='col-12 col-md-8 col-lg-8'>
+        <div>
+          <p className={`${styles.sectionSubText} text-center`}>
+            Solicitá el que más te guste
+          </p>
+          <h2 className={`${styles.sectionHeadText} text-center`}>
+            Mis creaciones.
+          </h2>
+        </div>
+        <div className='mt-20'>
+          <VerticalTimeline>
+            {experiences.map((experience, index) => (
+              <ExperienceCard
+                key={`experience-${index}`}
+                experience={experience}
+              />
+            ))}
+          </VerticalTimeline>
+        </div>
       </div>
+      
+      <div className='col-0 col-md-2 col-lg-2'>
+      </div>
+    
     </div>
   );
 };
