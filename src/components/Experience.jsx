@@ -53,8 +53,8 @@ const ExperienceCard = ({ experience }) => {
         </div> 
         
         
-        <Link to="/pagina">
-          <button className='flex justify-center items-center gap-1 btn btn-primary'>Productos</button>
+        <Link to={experience.title} className="btn btn-outline-primary">
+          {experience.title}
         </Link>
 
         
@@ -89,8 +89,11 @@ const Experience = () => {
                 key={`experience-${index}`}
                 experience={experience}
               />
+              
+              
             ))}
           </VerticalTimeline>
+          
         </div>
       </div>
       

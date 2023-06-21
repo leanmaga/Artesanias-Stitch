@@ -1,26 +1,28 @@
+import { Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home";
+import NoMatch from "./Pages/NoMatch";
+import Aros from "./Pages/Aros";
+import Funkos from "./Pages/Funkos"; 
+import Llaveros from "./Pages/Llaveros";
+import Otros from "./Pages/Otros";
 
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar,  StarsCanvas } from "./components";
 
 const App = () => {
   return (
     <div >
       <div className='relative z-0 bg-black'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-          <Navbar />
           
-          <Hero />
-        </div>
-        <div >
-          <About  />
-
-          <Experience />
+          <Routes>
+              <Route path='/' element={<Home/>}/>
+              <Route path='/aros' element={<Aros/>} />
+              <Route path='/funkos' element={<Funkos/>} />
+              <Route path='/llaveros' element={<Llaveros/>} />
+              <Route path='/otros' element={<Otros/>} />
+              <Route path='*' element={<NoMatch />} />
+          </Routes>
           
-          <Feedbacks />
-        </div>
-        <div >
-          <Contact />
-          <StarsCanvas />
         </div>
       </div>
     </div>

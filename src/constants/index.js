@@ -48,11 +48,11 @@ const experiences = [
     image: llaveros,
   },
   {
-    title: "Souvenirs",
-    company_name: "Souvenirs",
+    title: "Otros",
+    company_name: "Souvenirs y más",
     icon: souvenir,
     iconBg: "#383E56",
-    date: "Souvenirs personalizados",
+    date: "Souvenirs personalizados, cuadros, y muchos más",
     image: souvenir,
   },
   {
