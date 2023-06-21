@@ -6,6 +6,7 @@ const Otros = () => {
   return (
     <>
     <div className="flex justify-center w-full h-screen text-center">
+   
 
     <div className="col-2"></div>
 

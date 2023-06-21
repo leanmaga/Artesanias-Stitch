@@ -1,4 +1,4 @@
-import { StarsCanvas } from "../components"
+import {  StarsCanvas } from "../components"
 import CarouselLlaveros from "../components/CarouselLlaveros";
 
 import { styles } from "../styles";
@@ -6,6 +6,7 @@ const Llaveros = () => {
   return (
     <>
     <div className="flex justify-center w-full h-screen text-center">
+    
 
     <div className="col-2"></div>
 

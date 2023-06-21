@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
-import NoMatch from "./Pages/NoMatch";
 import Aros from "./Pages/Aros";
 import Funkos from "./Pages/Funkos"; 
 import Llaveros from "./Pages/Llaveros";
@@ -20,7 +19,7 @@ const App = () => {
               <Route path='/funkos' element={<Funkos/>} />
               <Route path='/llaveros' element={<Llaveros/>} />
               <Route path='/otros' element={<Otros/>} />
-              <Route path='*' element={<NoMatch />} />
+              <Route path='*' element={<Home />} />
           </Routes>
           
         </div>
