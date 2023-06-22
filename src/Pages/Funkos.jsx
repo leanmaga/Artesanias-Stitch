@@ -2,8 +2,12 @@ import { StarsCanvas } from "../components"
 import CarouselFunkos from "../components/CarouselFunkos";
 
 import { logo } from "../assets";
-import { styles } from "../styles";
 
+
+import { Link } from "react-router-dom";
+
+
+import { styles } from "../styles";
 
 const Funkos = () => {
   return (
@@ -14,9 +18,7 @@ const Funkos = () => {
     <div className="col-2"></div>
 
     <div className="col-8">
-        <h1 className={`${styles.sectionHeadText} text-center`}>
-          Funkos 
-        </h1>
+        <h1 className={`${styles.sectionHeadText} text-center  pt-4`}><Link to='/'>Funkos</Link></h1>
        
         <CarouselFunkos/>
     </div>

@@ -2,6 +2,8 @@ import { StarsCanvas } from "../components"
 import CarouselOtros from "../components/CarouselOtros";
 
 import { styles } from "../styles";
+
+import { Link } from "react-router-dom";
 const Otros = () => {
   return (
     <>
@@ -11,7 +13,7 @@ const Otros = () => {
     <div className="col-2"></div>
 
     <div className="col-8">
-        <h1 className={`${styles.sectionHeadText} text-center`}>Otros</h1>
+        <h1 className={`${styles.sectionHeadText} text-center pt-4`}><Link to='/'>Otros</Link></h1>
         <CarouselOtros/>
     </div>
 

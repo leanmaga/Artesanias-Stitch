@@ -68,27 +68,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "👏👏👏👏 Son lo massss",
+    name: "alvarado_adry",
+    designation: "Emprendedora",
+    company: 'Tejidos Adri',
+    image: "https://img.freepik.com/fotos-premium/hilos-tejer-fondo_122732-136.jpg?w=740",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "😍😍Muy Hermoso",
+    name: "day.frida_sublimados",
+    designation: "SEO",
+    company: "Frida SUblimados",
+    image: "https://scontent.fepa2-1.fna.fbcdn.net/v/t39.30808-6/280708467_398151828990551_3137671342885650777_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeG1C9PxAwLGV1JBC0512q8lKWZwr0klrT8pZnCvSSWtP7Kqcc0rlnHZWNYAbScsEMu5INbD3tFFpBZ-GKNvpxbl&_nc_ohc=YjNlGyjS800AX-UiCWy&_nc_ht=scontent.fepa2-1.fna&oh=00_AfCAE86Codq91oV4wiC9GsZGuVMMAx13sKF_dOCMGymT2g&oe=64989DE9",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "Me encantó, totalmente personalizado, muy recomendado!",
+    name: "le_mark2023",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "Le-Mark",
+    image: "https://scontent.fepa2-1.fna.fbcdn.net/v/t39.30808-6/230114926_369828121482156_6615156299355680580_n.jpg?_nc_cat=104&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=50qjnD0lUVkAX9pAcVx&_nc_ht=scontent.fepa2-1.fna&oh=00_AfB-61KVL29UgfgcMV6LTKcK_Dri8UwaqHvcdmS_e97c2w&oe=6497796E",
   },
 ];
 
