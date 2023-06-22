@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
@@ -36,8 +34,6 @@ const Hero = () => {
         
       </div>
       
-      
-
       <div className='col-12 col-md-5 col-lg-4'>
 
         <div className={`inset-0 ${styles.paddingX} flex flex-col justify-center h-[500px] items-center p-5`}>
@@ -48,8 +44,6 @@ const Hero = () => {
 
       <div className='col-0 col-md-1 col-lg-2'></div>
       
-      
-
     </div>
   );
 };

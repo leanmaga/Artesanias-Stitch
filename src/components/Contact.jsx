@@ -10,17 +10,20 @@ import { logo } from "../assets";
 const Contact = () => {
   
   return (
-    <div id='contact' className="m-0 flex justify-center xs:flex-col sm:flex-col md:flex-row">
+
+    <div id='contact'>
+
+      <div className='col-0 col-md-1 col-lg-2'></div>
+       
+      <div className="col-12 col-md-5 col-lg-4 p-8">
       
-     
-      <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 p-16">
         <motion.div
-        variants={slideIn("left", "tween", 0.2, 1)}
-        className=' bg-black-100 p-8 rounded-2xl'
-      >
-        <h3 className={styles.sectionHeadText}>Contáctame.</h3>
+          variants={slideIn("left", "tween", 0.2, 1)}
+          className=' bg-black-100 p-8 rounded-2xl'
+        >
+          <h3 className={styles.sectionHeadText}>Contáctame.</h3>
         
-        <form
+          <form
           className='mt-6 flex flex-col gap-2'
         >
           <label className='flex flex-col'>
@@ -57,20 +60,25 @@ const Contact = () => {
           >
             Enviar
           </button>
-        </form>
+          </form>
         
         </motion.div>
 
       </div>
       
-      <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 p-16">
+      <div className="col-12 col-md-5 col-lg-4 p-8">
+      
         <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
-        className='flex justify-center'
+          variants={slideIn("right", "tween", 0.2, 1)}
+          className='flex justify-center'
         >
           <img src={logo} alt='logo' className='object-contain h-50 logo' />
+        
         </motion.div>
+      
       </div>
+
+      <div className='col-0 col-md-1 col-lg-2'></div>
     
     </div>
   );

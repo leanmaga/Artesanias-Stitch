@@ -82,7 +82,7 @@ const Experience = () => {
             Mis creaciones.
           </h2>
         </div>
-        <div className='mt-20'>
+        <div className='mt-20 p-8'>
           <VerticalTimeline>
             {experiences.map((experience, index) => (
               <ExperienceCard

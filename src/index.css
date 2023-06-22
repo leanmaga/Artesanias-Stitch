@@ -57,7 +57,9 @@
 }
 
 @media (max-width: 768px){
-  #hero{
+  #hero, #contact{
+    width:100%;
+    margin:0;
     display: flex;
     flex-direction: column;
   }
